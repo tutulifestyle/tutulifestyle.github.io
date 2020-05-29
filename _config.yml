@@ -1,11 +1,11 @@
 # Site settings
 title: TuTu生活志
-name: TuTulifestyle # your name
-email: TuTulifestyle.com@gmail.com # your email address
+name: tutulifestyle # your name
+email: tutulifestyle.com@gmail.com # your email address
 description: >
     TuTulifestyle backup website # this means to ignore newlines until "baseurl:"
-baseurl: "/tutulifestyle_Blog" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site
+baseurl: "/Blog" # the subpath of your site, e.g. /blog
+url: "tutulifestyle.github.io" # the base hostname & protocol for your site
 twitter_username: tutulifestyle # your Twitter username
 github_username: tutulifestyle # your Github username
 disqus_username: # your disqus username
