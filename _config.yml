@@ -1,1 +1,19 @@
-theme: jekyll-theme-tactile
+# Site settings
+title: TuTulifestyle Blog
+name: TuTulifestyle # your name
+email: TuTulifestyle.com@gmail.com # your email address
+description: >
+    TuTulifestyle backup website # this means to ignore newlines until "baseurl:"
+baseurl: "/tutulifestyle_Blog" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site
+twitter_username:tutulifestyle # your Twitter username
+github_username:tutulifestyle # your Github username
+disqus_username: # your disqus username
+
+google-analytics: # add it if you have one
+
+skillstree: true # turn on or off the skills tree in about page
+
+# Build settings
+permalink: none
+markdown: kramdown
