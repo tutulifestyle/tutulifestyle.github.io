@@ -55,9 +55,9 @@ defaults:
   -
     scope:
       path: ""
-      type: "posts"
+      type: ""
     values:
-      layout: "post"
+      layout: ""
       comments: true
 
 # Atom feed
