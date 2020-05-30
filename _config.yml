@@ -79,7 +79,7 @@ plugins:
 favicon: /assets/favicon.ico
 
 # Set default keywords (Use a comma to separate)
-keywords: "Jekyll, NexT"
+keywords: "Jekyll, Github"
 
 # Set rss to false to disable feed link.
 # Leave rss as empty to use site's feed link.
@@ -134,13 +134,13 @@ menu:
 menu_icons:
   enable: true
   #KeyMapsToMenuItemKey: NameOfTheIconFromFontAwesome
-  home: home
+  首页: home
+  文章: archive
+  产品：pruduct
   about: user
   categories: th
   schedule: calendar
   tags: tags
-  archives: archive
-  products：pruduct
   sitemap: sitemap
   commonweal: heartbeat
 
