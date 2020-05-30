@@ -9,7 +9,7 @@ subtitle:
 description:
 author: TuTu
 # Support language: de, en, fr-FR, id, ja, ko, pt-BR, pt, ru, zh-Hans, zh-hk, zh-tw
-language: en
+language: zh-Hans
 date_format: '%Y-%m-%d'
 
 # URL
@@ -19,7 +19,7 @@ baseurl:
 permalink: pretty
 
 # Pagination
-paginate: 0
+paginate: 10
 #paginate_path: "/page:num/"
 #archive:
   #paginate: 10
@@ -93,7 +93,7 @@ rss:
 authoricon: heart
 
 # Footer `powered-by` and `theme-info` copyright
-copyright: true
+copyright: false
 
 # ---------------------------------------------------------------
 # SEO Settings
@@ -117,11 +117,11 @@ index_with_subtitle: false
 
 # When running the site in a subdirectory (e.g. domain.tld/blog), remove the leading slash (/archives -> archives)
 menu:
-  home: /
+  首页: /
   #categories: /categories/
-  #about: /about/
-  archives: /archives/
-  tags: /tags/
+  文章: /archives/
+  产品: /products/
+  about: /about/
   #sitemap: /sitemap.xml
   #commonweal: /404.html
 
@@ -140,6 +140,7 @@ menu_icons:
   schedule: calendar
   tags: tags
   archives: archive
+  products：pruduct
   sitemap: sitemap
   commonweal: heartbeat
 
