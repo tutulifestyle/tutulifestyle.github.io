@@ -1,16 +1,16 @@
 ---
 layout: page
-title: Category
+title: Product
 subtitle: Do something you like.
 permalink: /product/
 ---
 
-{% for category in site.categories %}
-{% capture cat %}{{ category | first }}{% endcapture %}
+{% for product in site.products %}
+{% capture cat %}{{ product | first }}{% endcapture %}
 
 <h2>{{ cat | capitalize }}</h2>
 	<ul>
-	{% for post in site.categories[cat] %}
+	{% for post in site.products[cat] %}
 	  <li>
 	  <p><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
 	     <span class="date"> - {{ post.date | date_to_long_string }}</span></p>
