@@ -22,7 +22,7 @@
   <p>
     我所用到的一键脚本：<a href="https://github.com/233boy/v2ray/wiki/V2Ray%E4%B8%80%E9%94%AE%E5%AE%89%E8%A3%85%E8%84%9A%E6%9C%AC" class="aioseop-link">233boy</a> <a href="https://github.com/233boy/v2ray/issues/375" class="aioseop-link">脚本争议</a>
   </p>
-</blockquote>
+
 
 <p class="has-text-color has-vivid-purple-color">
   <strong>我目前使用的机场：</strong>
