@@ -1,35 +1,63 @@
-# NexT
+# Utterson
 
-> 精于心，简于形
+*The Strange Case of Dr. Jekyll and Mr. Hyde* tells the story of a lawyer investigating the connection of two persons, Dr. Henry Jekyll and Mr. Edward Hyde. This lawyer is Mr. Gabriel John Utterson, a loyal friend of Jekyll's (and, soon enough, a loyal friend of yours, as well).
 
-NexT 是由 [Hexo NexT](https://github.com/iissnan/hexo-theme-next) 移植而来的 Jekyll 主题。<!--commit: f951075d9b739d26b42472431995fa68d08796aa-->
+---
 
-<a href="http://simpleyyt.github.io/jekyll-theme-next/" target="_blank">在线预览 Preview</a> | <a href="http://simpleyyt.com" target="_blank">Yitao's Blog</a> | <a href="http://theme-next.simpleyyt.com" target="_blank">NexT 使用文档</a> |  [English Documentation](README.en.md)
+Utterson was built on top of [Jekyll](http://jekyllrb.com), a static site generator, and  [Poole](https://github.com/poole/poole), a vanilla Jekyll install. It was designed and developed by [@alidcastano](https://twitter.com/alidcastano), to provide a minimal and unassuming theme, focused on what matters: you and your content.
 
-[![Join the chat at https://gitter.im/simpleyyt/jekyll-theme-next](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/jekyll-theme-next/lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+[See the theme in action](http://utterson.alidcastano.com/).
 
-![NexT Schemes](http://iissnan.com/nexus/next/next-schemes.jpg)
+<a href="http://utterson.alidcastano.com/">
+<img src="https://cloud.githubusercontent.com/assets/11031952/14027042/22c27794-f1cc-11e5-8a25-9bab1e7920f2.png" atl="home page">
+</a>
+*A minimal home page.*
 
+## Features: 
 
-## 浏览器支持 Browser support
+Utterson provides a fully-functional setup:
 
-![Browser support](http://iissnan.com/nexus/next/browser-support.png)
+* **Home Page with according navigation** makes your site is easy to navigate.
+* **Sliding email subscription form** lets you can build your audience in a an unobtrusive manner. 
+* **Simple Contact Form** with [Formspree](http://www.formspree.io/), provides a way for your your readers easily reach you by email, without you having to reveal personal information. 
+* **Scrolling navigation bar** for posts lets readers can easily go back to your home page. 
+* **Fade-in footer** allows you to have one last call to action at the bottom of each post, without getting in the way of your content. 
 
+Also, building off Poole's vanilla install:
 
-## 贡献 Contributing
+* **A holistic Jekyll setup** (Layouts, config, [archive page](/archive), [404]({{ site.baseurl }}/404.html), example pages and posts.)
+* **Easily scalable** text and component sizing with `rem` units in the CSS.
+* **Mobile Friendly Design** so that your site can be accessed on any device.
 
-欢迎提交问题与需求，修复代码。
+<a href="http://utterson.alidcastano.com/I-love-Jekyll">
+<img src="https://cloud.githubusercontent.com/assets/11031952/14027371/b26c503a-f1cd-11e5-9a44-6b8edc8e41cb.png"  atl="posts page">
+</a>
+*Content focused pages, with a sliding email subscription form.*
 
+## Getting Started 
 
-## 开发 Development
+**Make it yours in under 20 minutes.**
 
-NexT 主旨在于简洁优雅且易于使用，所以首先要尽量确保 NexT 的简洁易用性。
+Three simple steps:
 
-NexT is built for easily use with elegant appearance. First things first, always keep things simple.
+1. Edit the <code>_config.yml</code> and put your own information. 
+2. Edit the markdown files in <code>_includes/content</code> and talk about yourself. 
+3. Replace the images in <code>/img</code> directory with your own.
 
+Optionally: 
 
-## 捐赠
+* You can change default variables in <code>_sass/variables</code> (i.e. if to change nav link colors). 
+* If you don't want to use Formspree for your subscription form, you can change that in <code>_includes/email-form.html</code>.
 
-支付宝捐赠链接还是要有的，万一真的有人捐呢。
+---
 
-![支付宝扫码捐赠](http://7lryc0.com1.z0.glb.clouddn.com/a6x049034plyvjm1rvn4h28%20%281%29.png)
+## Next Steps... 
+
+- Add Social Media Icons 
+- Add hover feature for footnotes 
+
+---
+
+### License 
+Open sourced under the[MIT license](LICENSE.md).
+
